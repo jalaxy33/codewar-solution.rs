@@ -9,8 +9,8 @@
 
 #[allow(dead_code)]
 fn simple_multiplication(number: u8) -> u8 {
-    match number {
-        n if n % 2 == 0 => n * 8,
+    match number % 2 {
+        0 => number * 8,
         _ => number * 9,
     }
 }
