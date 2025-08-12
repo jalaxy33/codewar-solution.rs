@@ -37,3 +37,9 @@ tokio-util = { version = "0", features = ["full"] }
 quickcheck = "1"
 quickcheck_macros = "1"
 float_eq = "1"
+
+[workspace]
+members = [ 
+    "katas/kyu7",
+    "katas/kyu8",
+]
